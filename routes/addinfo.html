@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Entry To Databse</title>
+    </head>
+
+    <body>
+        <h1>Add Entry To Databse</h1>
+        <form method="post" action="/addcovid">
+            <label>Enter Covid Information</label><br>
+            <input type="text" name="date" placeholder="dd/mm/yyyy" required> 
+            <input type="text" name="county" placeholder="Enter county..." required>
+            <input type="text" name="state" placeholder="Enter state..." required>
+            <input type="number" name="cases" placeholder="Enter cases..." required>
+            <input type="number" name="deaths" placeholder="Enter deaths..." required>
+            <input type="submit" value="Add">
+        </form>
+    </body>
+</html>
