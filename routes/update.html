@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update</title>
+    </head>
+
+    <body>
+        <h1>Update Based on State & County</h1>
+        <form method="post" action="/updatevalues">
+            <label>Enter Values to Filter</label><br>
+            <input type="text" name="county" placeholder="Enter county..." required>
+            <input type="text" name="state" placeholder="Enter state..." required><br>
+            <label>Enter Values to Update</label><br>
+            <input type="number" name="cases" placeholder="Enter cases..." required>
+            <input type="number" name="deahs" placeholder="Enter deaths..." required>
+            <input type="text" name="date" placeholder="dd/mm/yyyy" required>
+            <input type="submit" value="Update">
+        </form>
+    </body>
+</html>
